@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{config.site_url}}assets/stylesheets/style.css">
+{{ super() }}
+{% endblock %}
+
+{% block hero %}
+<section class="bg-image">
+    <img src="{{config.site_url}}assets/images/background.jpg">
+    <div class="bg-shadow"></div>
+</section>
+<div class="padding"></div>
+{% endblock %}
+
+{% block content %}
+<h1>Pentester Note</h1>
+<p>Không biết thì search google đi hỏi t làm gì :3 .</p>
+	<p style="text-align: end; margin-right: 3rem;">– Nagisa Yumaa</p>
+<a class="md-button" href="404">Bắt đầu</a>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

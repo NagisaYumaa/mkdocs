@@ -19,8 +19,8 @@ theme:
  custom_dir: overrides
 
 
- logo: /docs/assets/images/1.jpg
- favicon: /docs/assets/images/1.ico
+ logo: ../../assets/images/1.jpg
+ favicon: ../../assets/images/1.ico
 
  language: vi
 

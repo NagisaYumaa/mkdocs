@@ -10,9 +10,13 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
+      link: https://github.com
     - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com
     - icon: fontawesome/brands/facebook
+      link: https://facebook.com
     - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com
     
 
 theme: 
@@ -82,5 +86,4 @@ markdown_extensions:
   - pymdownx.tilde
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
  
